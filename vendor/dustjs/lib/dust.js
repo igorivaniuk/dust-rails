@@ -10,7 +10,7 @@ var dust = {};
 
 function getGlobal(){	
   return (function(){	
-    return this.dust;	
+    return dust;	
       }).call(null);
 }
 
